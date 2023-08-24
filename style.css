@@ -1,0 +1,334 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* image div */
+.bg-img{
+    background-image: url(bgimg.jpg);
+    background-size: cover;
+    height: 40rem;
+    z-index: 1;
+}
+
+/* black background div */
+.bg-color{
+    height: 40rem;
+    background-color: rgba(0, 0, 0, 0.714);
+    z-index: 2;
+}
+
+/* navbar */
+.navbar{
+    display: flex;
+    height: 5.375rem;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo{
+    background-image: url(logo1.png);
+    background-size: cover ;
+    width: 9.25rem;
+    height: 2.5rem;
+    margin-left: 9.4375rem;
+}
+
+.sign-in{
+    width: 4.75rem;
+    height: 2rem;
+    margin-right: 9.4375rem;
+    background-color: red;
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.sign-in:hover{
+    background-color: rgba(255, 0, 0, 0.406);
+}
+
+#inside-box{
+    width: 55.30875rem;
+    height: 14.625rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 12.5rem auto;
+    line-height: 2.5rem;
+}
+
+/* upper text */
+.content{
+    font-size: 2.3rem;
+    color: white;
+}
+
+/* mid text */
+.content2{
+    font-size: 1.5rem;
+    color: white;
+}
+
+/* down text */
+.content3{
+    font-size: 1.25rem;
+    color: white;
+}
+
+/* input section */
+.email{
+    width: 23.5rem;
+    height: 2.875rem;
+    border: 0.125rem solid rgba(255, 255, 255, 0.418);
+    border-radius: 0.1875rem;
+    background-color: rgba(0, 0, 0, 0.433);
+    color: white;
+}
+.email:hover{
+   border: 2px solid white;
+}
+
+.button-2{
+  width: 12.5625rem;
+  height: 2.875rem;
+  background-color: red;
+  color: white;
+  font-size: 1.4rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.button-2:hover{
+    background-color: rgba(255, 0, 0, 0.406);
+}
+
+
+/* main-section  */
+hr{
+    border: 0.3125rem solid rgba(0, 0, 0, 0.819);
+}
+
+/* whole box */
+.section-box{
+    background-color: black;
+    height: 35.875rem;
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* text-content */
+.section-content{
+    width: 35.9375rem;
+    height: 10.125rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+/* img-box */
+.img-content{
+    width: 35.5625rem;
+    height: 26.625rem;
+    background-image: url(tv.png);
+    background-size: cover;
+}
+/* image-content */
+.img-box{
+    width: 25.625rem;
+    height: 14.1875rem;
+    background-image: url(adipurush.jpg);
+    background-size: cover;
+    margin-top: 5.8125rem;
+    margin-left: 4.8125rem;
+} 
+
+/* heading text */
+h3{
+    font-size: 2.7rem;
+}
+
+/* paragraph text */
+.line-content{
+    font-size: 1.4rem;
+    margin-top: 0.625rem;
+}
+
+/* 2nd box image */
+.img-content2{
+    width: 25.625rem;
+    height: 14.1875rem;
+    background-image:url(mobile-0819.jpg) ;
+    background-size: cover;
+}
+
+/* 3rd-box image */
+.img-box-timetravel{
+    width: 25.625rem;
+    height: 14.1875rem;
+    background-image: url(timetravel.jpg);
+    background-size: cover;
+    margin-top: 5.8125rem;
+    margin-left: 4.8125rem;
+}
+
+/* 4th box image */
+.img-content-kids{
+    width: 25.625rem;
+    height: 14.1875rem;
+    background-image:url(kids.png) ;
+    background-size: cover;
+}
+
+
+/* frequently asked questions section */
+
+/* full box section questioner */
+.questions{
+    height: auto;
+    background-color: black;
+}
+
+/* heading */
+h2{
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+}
+
+/* question box container */
+.question-container{
+    width: auto;
+    height: 5.25rem;
+    background-color: rgba(92, 90, 90, 0.327);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin: 15px auto; */
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-top: 0.9rem;
+}
+.question-container:hover{
+    background-color: rgba(92, 90, 90, 0.786);
+    transition: 0.5s;
+}
+
+/* questions text */
+.asked-questions{
+    width: 25rem;
+    height: 1.875rem;
+ color: white;
+ margin-left: 2.5625rem;
+ font-size: 2rem;
+}
+
+/* plus icon */
+.plus{
+    width: 2.25rem;
+    height: 2.25rem;
+    color: white;
+    margin-right: 1.5625rem;
+    font-size: 2rem;
+}
+
+/* end main section container */
+.end-content{
+    height: 6.875rem;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* inner-content box */
+.end-section{
+    width: 57.5rem;
+    height: 6.375rem;
+   display: flex;
+   flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.3125rem;
+}
+
+/* text-line */
+.end-section-text{
+    font-size: 1.2rem;
+    color: white;
+    
+}
+
+/* footer-section */
+
+.footer-section{
+    background-color: black;
+    color: white;
+    height: 35.6875rem;
+}
+
+.footer-heading{
+    width: 18.75rem;
+    height: 2.5rem;
+    margin-left: 6rem;
+}
+
+.footer-heading a{
+    font-size: 1.2rem;
+    color: white;
+
+}
+
+
+
+
+.footer-text{
+    font-size: 1rem;
+    color: white;
+    text-decoration: underline;
+    line-height: 3.75rem;
+    cursor: pointer;
+}
+
+
+.footer-end-small-box{
+    width: 7.375rem;
+    height: 2.6875rem;
+    border: 0.125rem solid white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 6rem;
+}
+
+.language-bar{
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+
+
+
+/* last container */
+.last-container{
+    width: auto;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(5,1fr);
+    grid-gap: 0.875rem;
+    margin-left: 6rem ;
+}
+
+.last-text{
+    margin-top: 0.6rem;
+    margin-left: 6rem ;
+}
